@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main: program that prints numbers, fizz and buzz
+ * main - program that prints numbers, fizz and buzz
  *
- * Return; Successful
+ * Return: Successful
  */
 
 int main(void)
@@ -34,6 +34,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-	
 	return (0);
 }

@@ -1,0 +1,26 @@
+#include "main.h"
+
+/**
+ * _strspn - Gets the length of a prefix substring
+ * @s: The string to be searched.
+ * @accept: The prefix to be measured.
+ *
+ * Return: The number of bytes in s
+ */
+
+unsigned int _strspn(char *s, char *accept)
+{
+	unsigned int i, j;
+
+	for (j = 0; *(s + j); j++)
+	{
+		for (i = 0; *(accept + i); i++)
+		{
+			if (*(s + j) == *(accpet + i))
+				break;
+		}
+		if (*(accept + 1) == '\0')
+			break;
+	}
+	return (j);
+}
